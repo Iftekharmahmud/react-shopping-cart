@@ -6,7 +6,7 @@ import Filter from "./components/Filter";
 
 
 class App extends React.Component {
-  constructor() {
+constructor(){ 
     super();
     this.state = {
       products: data.products,
