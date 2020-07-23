@@ -5,7 +5,7 @@ import Products from "./components/Products";
 
 
 class App extends React.Component {
-  constructor(){
+  constructor(){ 
     super();
     this.state = {
      products: data.products,
